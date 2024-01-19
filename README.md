@@ -1,1 +1,1 @@
-# portfolio
+A site to showcase my CV, projects and about me
