@@ -17,7 +17,9 @@
   --transition: 0.3s;
 }
 /* Variables end */
-
+body {
+  background-color: rgb(215, 224, 246);
+}
 html {
   scroll-behavior: smooth;
 }
@@ -48,9 +50,10 @@ body {
 }
 
 section {
-  /* max-width: 1100px;
-  margin: auto; */
+  
+  margin: auto;
 }
+
 
 /* CSS Resets end */
 
@@ -113,16 +116,26 @@ nav ul li {
 
 .hero img {
   position: relative;
-  height: 26rem;
-  width: 300rem;
+  height: 90vh;
+  width: 100vw;
 }
-
-.bio {
+.me {
   position: absolute;
-  width: 25rem;
+  top:160px;
+  font-family: roboto;
+  font-size:160px;
+  color:#040404;
+}
+.bio {
+  
+  color:#040404;
+  position: absolute;
+  bottom:50px;
+  width: 60rem;
   padding: 0.625rem;
   border-radius: 6px;
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  font-weight: bold;
 }
 
 .bio h1 {
@@ -137,7 +150,7 @@ nav ul li {
 
 /* More about */
 .more-about {
-  background-color: var(--bg-color);
+  background-color: rgb(215, 224, 246);
   padding: 1rem 6rem;
 }
 
@@ -149,6 +162,7 @@ nav ul li {
 .more-about p {
   line-height: var(--line-height);
   padding: 0.4rem;
+  text-align: center;
 }
 /* More about ends */
 
@@ -176,7 +190,7 @@ nav ul li {
 
 /* Projects section */
 .projects {
-  background-color: var(--bg-color);
+  background-color: rgb(215, 224, 246);
   padding: 32px 0;
   margin-top: 2rem;
 }
