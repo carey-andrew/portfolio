@@ -39,7 +39,7 @@
         <li><a href="#projects" class="nav-link">Projects</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
-      <button class="burger-menu" id="burger-menu">
+      <button type="button" class="burger-menu" id="burger-menu">
         <ion-icon class="bars" name="menu-outline"></ion-icon>
         <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
       </button>
@@ -54,17 +54,19 @@
         class="hero-img"
         --
       />
-      <h1 class="me">
-        Andy Carey
-      </h1>
+      <h1 class="me">Andy Carey</h1>
       <div class="bio animate__animated animate__shakeX">
         <h2 class="bio-title">About Me</h2>
         <p class="bio-text">
           I'm an aspiring Full Stack Developer who has a naturally curious
-          nature.
-
-          A creative and resilient problem solver who has a new-found passion for using tech and software to find the answer. I'm career changing from Chemistry teaching where I enjoyed finding engaging ways of helping students to learn. I enjoyed programming Lego robots with students and realised that software development often modelled resilience and determination to get the answer. I am now looking forward to using my analytical mind in full stack development, offering different perspectives based on my experiences.
-
+          nature. A creative and resilient problem solver who has a new-found
+          passion for using tech and software to find the answer. I'm career
+          changing from Chemistry teaching where I enjoyed finding engaging ways
+          of helping students to learn. I enjoyed programming Lego robots with
+          students and realised that software development often modelled
+          resilience and determination to get the answer. I am now looking
+          forward to using my analytical mind in full stack development,
+          offering different perspectives based on my experiences.
         </p>
       </div>
     </section>
@@ -75,18 +77,18 @@
       <p class="aboutMe">
         I enjoy working in a team, I've found collaboration produces a product
         that is more than the sum of it's parts.
-      <br>
+        <br />
         I'm excited to be choosing a fast-paced work environment where
         reflection and adaptation are needed for success.
-        <br>
-        My interest in coding began whilst working with Lego robots during an afterschool club and I realised how much I enjoyed the problem solving aspect of coding. 
-        <br>
+        <br />
+        My interest in coding began whilst working with Lego robots during an
+        afterschool club and I realised how much I enjoyed the problem solving
+        aspect of coding.
+        <br />
         I'm looking forward to working in a role where I can continue to learn.
-        <br>
+        <br />
       </p>
-      <p class="aboutMe">
-        
-      </p>
+      <p class="aboutMe"></p>
     </section>
 
     <!-- Skills section -->
@@ -143,56 +145,61 @@
       <h2 class="projects-title">Some of my Recent Projects</h2>
       <div class="projects-container">
         <div class="project-container project-card">
-            <img
-              src="assets/images/bubble.png"
-              alt="bubble-app"
-              loading="lazy"
-              class="project-pic"
-            />
-            <h3 class="project-title">Bubble</h3>
-            <p class="project-details">
-              A children's mental health app that helps children to identify and
-              express their emotions.
-            </p>
-            <a
-              href="https://bubble-app-two.vercel.app/"
-              target="_blank"
-              class="project-link"
-              >Check it Out</a
-            >
-          </div>
-          <div class="project-container project-card">
-            <img
-              src="assets/images/revsionTool.png"
-              alt="revision tool"
-              loading="lazy"
-              class="project-pic"
-            />
-            <h3 class="project-title">Revision Tool</h3>
-            <p class="project-details">
-              A revision tool that helps bootcampers test their knowledge of the
-              course content.
-            </p>
-            <a
-              href="https://bc15-w8-project-front-end-tech-ti-tens-mu.vercel.app/"
-              target="_blank"
-              class="project-link"
-              >Check it Out</a
-            >
-          </div>
+          <img
+            src="assets/images/bubble.png"
+            alt="bubble-app"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Bubble</h3>
+          <p class="project-details">
+            A children's mental health app that helps children to identify and
+            express their emotions.
+          </p>
+          <a
+            href="https://bubble-app-two.vercel.app/"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/revsionTool.png"
+            alt="revision tool"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Revision Tool</h3>
+          <p class="project-details">
+            A revision tool that helps bootcampers test their knowledge of the
+            course content.
+          </p>
+          <a
+            href="https://bc15-w8-project-front-end-tech-ti-tens-mu.vercel.app/"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
+        </div>
         <div class="project-container project-card">
           <h3 class="project-title">Movie API</h3>
           <img
-              src="assets/images/movie.png"
-              alt="movie website"
-              loading="lazy"
-              class="project-pic"
-            />
+            src="assets/images/movie.png"
+            alt="movie website"
+            loading="lazy"
+            class="project-pic"
+          />
           <p class="project-details">
             Interested in fiding a new movie? take a look at the latest movie
             posters and learn about the film.
           </p>
-          <a href="https://bc15-w3-recap-task-fetch-challenge-carey-andrew.vercel.app/" target="_blank" class="project-link">Check it Out</a>
+          <a
+            href="https://bc15-w3-recap-task-fetch-challenge-carey-andrew.vercel.app/"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
         </div>
       </div>
     </section>
@@ -237,12 +244,11 @@
                 required
               ></textarea>
             </div>
-            <input
-              type="submit"
+            <button
               value="Submit"
               id="submit-btn"
               class="submit-btn"
-            />
+            /button>
           </form>
         </div>
       </div>

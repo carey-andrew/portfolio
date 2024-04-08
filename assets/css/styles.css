@@ -18,7 +18,13 @@
 }
 /* Variables end */
 body {
-  background-color: rgb(215, 224, 246);
+  background-image: url("../../mountain-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin:0;
+  padding:0;
 }
 html {
   scroll-behavior: smooth;
@@ -127,7 +133,6 @@ nav ul li {
   color:#040404;
 }
 .bio {
-  
   color:#040404;
   position: absolute;
   bottom:50px;
@@ -268,12 +273,14 @@ nav ul li {
   border: none;
   border: 2px outset var(--primary-color);
   font-size: 0.875rem;
+  font-family: var(--font-family);
   outline: none;
 }
 
 .input-field::placeholder {
   padding: 0.5rem;
   color: var(--primary-color);
+  font-family: var(--font-family);
 }
 
 .submit-btn {
